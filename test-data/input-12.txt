@@ -1,0 +1,5 @@
+# TC-FINAL: Fire primary, then secondary successfully (covers lines 55-57)
+GT4500,10,0,10,0
+TORPEDO,SINGLE  # Fires primary (P:9, S:10). wasPrimaryFiredLast = true
+TORPEDO,SINGLE  # Fires secondary successfully (P:9, S:9). wasPrimaryFiredLast = false [COVERS 55-57]
+EXIT
