@@ -1,0 +1,4 @@
+# Branch 4: Primary fails, should NOT try secondary in SINGLE mode
+GT4500,10,1.0,10,0
+TORPEDO,SINGLE  # Primary fails (100% fail rate), stops without trying secondary
+EXIT

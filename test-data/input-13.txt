@@ -1,0 +1,4 @@
+GT4500,10,0,10,0
+TORPEDO,SINGLE  # Fires primary. wasPrimaryFiredLast = true
+TORPEDO,SINGLE  # Fires secondary (covers line 55-57 branch)
+EXIT
