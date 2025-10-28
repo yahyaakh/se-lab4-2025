@@ -1,0 +1,5 @@
+# TC-RED-3: Secondary fired last, primary empty, fires secondary again (covers lines 76-78)
+GT4500,0,0,10,0
+TORPEDO,SINGLE  # Primary empty, fires secondary (P:0, S:9). wasPrimaryFiredLast = false
+TORPEDO,SINGLE  # Primary still empty, fires secondary again (P:0, S:8) [COVERS 76-78]
+EXIT

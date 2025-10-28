@@ -1,0 +1,4 @@
+# Branch 7: ALL mode - only secondary has torpedoes
+GT4500,0,0,10,0
+TORPEDO,ALL  # Primary empty, secondary fires
+EXIT

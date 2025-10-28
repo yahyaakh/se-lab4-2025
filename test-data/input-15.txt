@@ -1,0 +1,5 @@
+# Branch 3: Secondary fired last, primary empty, secondary NOT empty
+GT4500,0,0,10,0
+TORPEDO,SINGLE  # Primary empty, fires secondary. wasPrimaryFiredLast = false
+TORPEDO,SINGLE  # Primary still empty, fires secondary again (covers line 76-78 branch)
+EXIT

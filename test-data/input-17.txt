@@ -1,0 +1,5 @@
+# Branch 5: Secondary fails when it's the first to fire
+GT4500,10,0,10,1.0
+TORPEDO,SINGLE  # Fires primary. wasPrimaryFiredLast = true
+TORPEDO,SINGLE  # Secondary fails (100% fail rate), stops
+EXIT
